@@ -1,0 +1,54 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.grid-main-container {
+    display: grid;
+    margin: 100px auto;
+    width: 210px;
+    grid-gap: 1px 1px;
+    grid-template-columns: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+    grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+}
+
+.grid-main-container-old {
+    display: grid;
+    margin: 100px auto;
+    width: 210px;
+    grid-gap: 1px 1px;
+    grid-template-columns: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+    grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+}
+
+
+.grid-item {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.grid-char {
+    font-size: 10px;
+    width: 22px;   
+}
+
+.grid-num {
+    font-size: 10px;
+    height: 22px;
+}
+
+.grid-black {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.grid-white {
+    background-color: darkgrey;
+    border: 1px solid black;
+}
+
+.chess {
+    height: 12px;
+}

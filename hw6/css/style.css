@@ -1,0 +1,47 @@
+body {
+    background-color: brown;    
+}
+
+.pictureConteiner {
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+}
+
+#bigImg {
+    display: inline-block;
+    width: 60%;
+    height: 300px;
+    margin: 0 5% auto;
+    outline: 1px solid white;
+}
+
+.bigPicture .arrowImg {
+    height: 45px;
+    margin-top: 135px;
+}
+
+.bigPicture .arrowLeftImg {
+    margin-left: 10%;
+    float: left;
+}
+
+.bigPicture .arrowRightImg {
+    margin-right: 10%;
+    float: right;
+}
+
+.smallPicture {
+    display: grid;
+    width: 500px;
+    grid-gap: 10px;
+    grid-template-columns: 60px 60px 60px 60px 60px;
+    margin-top: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.smallPicture .smallImg {
+    width: 60px;
+    outline: 1px solid white;
+}
